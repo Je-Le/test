@@ -1,18 +1,17 @@
 {
-    "version": 8,
+    "version": 1,
     "sources": {
-        "protomaps": {
+        "openmaptiles": {
             "type": "vector",
-            "attribution": "<a href=\"https://github.com/protomaps/basemaps\">Protomaps</a> © <a href=\"https://openstreetmap.org\">OpenStreetMap</a>",
-            "url": "pmtiles://https://oliverwipfli.ch/data/v4.pmtiles"
-        }
+            "url": "mbtiles:///data/tiles.mbtiles"
+          }
     },
     "layers": [
         {
             "id": "background",
             "type": "background",
             "paint": {
-                "background-color": "#2b2b2b"
+                "background-color": "#ffffff"
             }
         },
         {
@@ -28,7 +27,7 @@
             "source": "protomaps",
             "source-layer": "earth",
             "paint": {
-                "fill-color": "#141414"
+                "fill-color": "#ffffff"
             }
         },
         {
