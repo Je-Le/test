@@ -10,7 +10,7 @@
   "bearing": 0,
   "pitch": 0,
   "sources": {
-    "openstreetmap": {
+    "openmaptiles": {
         "type": "vector",
         "tiles": [
             "http://tile.openstreetmap.org/{z}/{x}/{y}.png"
