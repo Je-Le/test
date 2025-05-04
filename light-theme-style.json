@@ -4,9 +4,10 @@
   "id": "openmaptiles",
   "sources": {
     "maplibre-satellite": {
-        "tiles": [
-            "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-        ]
+      "type": "raster",
+      "tiles": [
+          "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+      ]
     }
   },
   "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/black",
