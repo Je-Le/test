@@ -9,8 +9,8 @@
         ]
     }
   },
-  "glyphs": "{fontstack}/{range}.pbf",
-  "sprite": "sprite",
+  "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/black",
+  "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
